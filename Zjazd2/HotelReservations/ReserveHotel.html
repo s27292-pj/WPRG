@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Reservation Form</title>
+</head>
+<body>
+<h2>Hotel Reservation Form</h2>
+<form action="process_reservation.php" method="post">
+    <label for="num_people">Number of People:</label>
+    <select name="num_people" id="num_people" required>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select><br>
+
+    <label for="first_name">First Name:</label>
+    <input type="text" id="first_name" name="first_name" required><br>
+
+    <label for="last_name">Last Name:</label>
+    <input type="text" id="last_name" name="last_name" required><br>
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" required><br>
+
+    <label for="credit_card">Credit Card:</label>
+    <input type="text" id="credit_card" name="credit_card" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="stay_date">Stay Date:</label>
+    <input type="date" id="stay_date" name="stay_date" required><br>
+
+    <label for="arrival_time">Arrival Time:</label>
+    <input type="time" id="arrival_time" name="arrival_time" required><br>
+
+    <label for="extra_bed">Extra Bed for Child:</label>
+    <input type="checkbox" id="extra_bed" name="extra_bed"><br>
+
+    <label for="amenities">Amenities:</label><br>
+    <input type="checkbox" id="air_conditioning" name="amenities[]" value="Air Conditioning">
+    <label for="air_conditioning">Air Conditioning</label><br>
+    <input type="checkbox" id="smoking_area" name="amenities[]" value="Smoking Area">
+    <label for="smoking_area">Smoking Area</label><br>
+
+    <button type="submit">Submit Reservation</button>
+</form>
+</body>
+</html>
