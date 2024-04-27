@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="formhandler.php" method="get">
+        <label for="dir_path">Enter directory path. [empty = ./ ]</label>
+        <input type="text" name="dir_path" id="dir_path" placeholder="">
+        <br>
+        <label for="directory">Type in directory name</label>
+        <input type="text" name="directory" id="directory" required>
+        <br>
+        <label for="operation">Select operation type</label>
+        <select name="operation" id="operation" required>
+            <option value="read">Read</option>
+            <option value="delete">Delete</option>
+            <option value="create">Create</option>
+        </select>
+        <br>
+        <button type="submit">Submit form</button>
+    </form>
+</body>
+</html>
