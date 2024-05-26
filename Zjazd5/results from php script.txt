@@ -1,0 +1,51 @@
+Connected successfully
+Query1 fetchrow results:
+ID: 1 Name: Daniel Surname: Anderson
+ID: 2 Name: Laura Surname: Garcia
+ID: 3 Name: Kevin Surname: Harris
+ID: 4 Name: Megan Surname: Clark
+ID: 5 Name: William Surname: Lewis
+ID: 6 Name: Amanda Surname: Young
+ID: 7 Name: Steven Surname: Walker
+ID: 8 Name: Sophia Surname: Moore
+ID: 9 Name: Ryan Surname: Turner
+ID: 10 Name: Olivia Surname: Adams
+
+Query2 fetcharray results:
+Location ID: 1 Location Name: Main Street Gym Address: 123 Main St City: Anytown State: CA Zip Code: 12345
+Location ID: 2 Location Name: Downtown Fitness Center Address: 456 Elm St City: Downtown State: NY Zip Code: 54321
+Location ID: 3 Location Name: Fitness Junction Address: 789 Oak Ave City: Metropolis State: IL Zip Code: 67890
+Location ID: 4 Location Name: Parkside Wellness Address: 101 Pine St City: City Park State: TX Zip Code: 98765
+Location ID: 5 Location Name: Harbor Health Hub Address: 222 Harbor Dr City: Seaside State: FL Zip Code: 45678
+Location ID: 6 Location Name: Nature's Gym Address: 333 Forest Rd City: Woodland State: OR Zip Code: 23456
+Location ID: 7 Location Name: Hillside Fitness Center Address: 444 Hillside Ave City: Hillsburg State: CA Zip Code: 34567
+Location ID: 8 Location Name: Sunset Gym Address: 555 Sunset Blvd City: Beachtown State: FL Zip Code: 56789
+Location ID: 9 Location Name: Mountain View Fitness Address: 666 Mountain Rd City: Summitville State: CO Zip Code: 45678
+Location ID: 10 Location Name: Lakefront Fitness Address: 777 Lake Dr City: Lakeside State: MI Zip Code: 12345
+New gym location added successfully
+
+Query2 fetcharray results:
+Location ID: 1 Location Name: Main Street Gym Address: 123 Main St City: Anytown State: CA Zip Code: 12345
+Location ID: 2 Location Name: Downtown Fitness Center Address: 456 Elm St City: Downtown State: NY Zip Code: 54321
+Location ID: 3 Location Name: Fitness Junction Address: 789 Oak Ave City: Metropolis State: IL Zip Code: 67890
+Location ID: 4 Location Name: Parkside Wellness Address: 101 Pine St City: City Park State: TX Zip Code: 98765
+Location ID: 5 Location Name: Harbor Health Hub Address: 222 Harbor Dr City: Seaside State: FL Zip Code: 45678
+Location ID: 6 Location Name: Nature's Gym Address: 333 Forest Rd City: Woodland State: OR Zip Code: 23456
+Location ID: 7 Location Name: Hillside Fitness Center Address: 444 Hillside Ave City: Hillsburg State: CA Zip Code: 34567
+Location ID: 8 Location Name: Sunset Gym Address: 555 Sunset Blvd City: Beachtown State: FL Zip Code: 56789
+Location ID: 9 Location Name: Mountain View Fitness Address: 666 Mountain Rd City: Summitville State: CO Zip Code: 45678
+Location ID: 10 Location Name: Lakefront Fitness Address: 777 Lake Dr City: Lakeside State: MI Zip Code: 12345
+Location ID: 11 Location Name: TotalFitness Address: Aleja grunwaldzka City: Gdansk State: Pomorskie Zip Code: 123-45
+
+Query3 numrows results:
+Number of rows queried: 10
+ID: 1 Payment date: 2023-01-20 Amount: 50.00
+ID: 2 Payment date: 2023-01-21 Amount: 60.00
+ID: 3 Payment date: 2023-01-22 Amount: 70.00
+ID: 4 Payment date: 2023-01-23 Amount: 55.00
+ID: 5 Payment date: 2023-01-24 Amount: 45.00
+ID: 6 Payment date: 2023-01-25 Amount: 65.00
+ID: 7 Payment date: 2023-01-26 Amount: 75.00
+ID: 8 Payment date: 2023-01-27 Amount: 60.00
+ID: 9 Payment date: 2023-01-28 Amount: 50.00
+ID: 10 Payment date: 2023-01-29 Amount: 70.00
